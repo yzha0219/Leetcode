@@ -3,7 +3,6 @@ package No_8;
 public class Solution1 {
 
     public static void main(String[] args) {
-<<<<<<< HEAD
         String s = "4193          ";
         System.out.println(Integer.parseInt(s));
     }
@@ -52,18 +51,8 @@ public class Solution1 {
                 return Integer.MIN_VALUE;
             }
         }
-=======
 
     }
 
-    public boolean isPalindrome(int x) {
-        String sx = String.valueOf(x);
-        int length = sx.length();
-        for(int i = 0;i < sx.length() / 2 ;i++){
-            if(sx.charAt(i) != sx.charAt(length - 1)) return false;
-            length--;
-        }
-        return true;
->>>>>>> 50fffec666abbf682e0b33627a43da21d70c0a67
-    }
+
 }
