@@ -22,12 +22,12 @@ public class Solution1 {
             }
         }
         String rcs = new String(rc);
-        int rnum = 0;
+        int rNum = 0;
         try{
-            rnum = Integer.parseInt(rcs);
-        }catch (Exception e){
-            rnum = 0;
+            rNum = Integer.parseInt(rcs);
+            return rNum;
+        }catch (Exception e) {
+            return rNum;
         }
-        return rnum;
     }
 }
