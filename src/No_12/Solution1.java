@@ -14,7 +14,7 @@ public class Solution1 {
 
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0;i < values.length && num > 0;i++){
-            if(values[i] <= num){
+            while(values[i] <= num){
                num -= values[i];
                stringBuilder.append(symbols[i]);
             }
